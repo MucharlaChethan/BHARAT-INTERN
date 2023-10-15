@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+}
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+h1{
+    font-size: 45px;
+    color: #855e2c;
+    font-family: raleway;
+    text-align: center; 
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 35px;
+    font-family: league spartan; 
+    color: #855e2c;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+hr{
+    margin:30px 30px 0px 30px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(9, 22, 6);
+    height: 60px;
+    margin: 10px 0px;
+}
+
+
+.nav-link{
+    position: relative;
+    font-size: 30px;
+    font-family: league spartan;
+    color:white;
+    text-decoration: none;   
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.nav-link::after{
+    content: "";
+    left: 0;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.5s;
+    width: 0;
+    height: 2px;
+    background: #9d4c1a;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.skill{
+    position: relative;
+    margin: 75px;
+}
+
+.js{
+    margin-left: 45px;
+}
+
+.css{
+    margin-left: 17px;
+}
+
+.python{
+    margin-left: 20px;
+}
+
+.html{
+    margin-left: 9px;
+}
+
+
+
+
+
+
+
