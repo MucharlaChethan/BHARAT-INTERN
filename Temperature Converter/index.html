@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Teko:300,regular,500,600,700" rel="stylesheet"/>
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Temperature Converter</h1>
+            <img src="medium-temperature-icon.svg" alt="thermometer">
+        </div>
+        <div class="temperature">
+            <div class="temp" id="celcius">
+                <input type="number" oninput="limitInputLength(this)">
+                <img src="letter-c.png" alt="celcius">
+            </div>
+            <div class="temp" id="fahrenheit">
+                <input type="number" oninput="limitInputLength(this)">
+                <img src="letter-f.png" alt="fahrenheit">
+            </div>
+            <div class="temp" id="kelvin">
+                <input type="number" oninput="limitInputLength(this)">
+                <img src="letter-k.png" alt="kelvin">
+            </div>
+            <div class="temp" id="rankine">
+                <input type="number" oninput="limitInputLength(this)">
+                <img src="letter-r.png" alt="rankine">
+            </div>
+            <div class="clear">
+                <button type="button">CLEAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
